@@ -92,7 +92,6 @@ Provide the target user, problem, current alternative, AI capability, expected u
 
 A thin interface over a public model is easy to copy. Build around a real workflow, proprietary value, measurable outcomes, and customer retention.
 
-
 ## Supporting Resources
 
 | File | Purpose |
@@ -104,7 +103,3 @@ A thin interface over a public model is easy to copy. Build around a real workfl
 ## Implementation caution
 
 Model pricing, model availability, SDK interfaces, and provider limits change. Check current provider documentation and prices before using examples or making a margin decision. The tables and model names in SKILL.md are source material, not current pricing guidance. Never expose provider API keys in browser bundles.
-
-## Upstream source and license
-
-The unchanged SKILL.md metadata attributes the skill to vibeship-spawner-skills and identifies Apache 2.0. The single root [LICENSE](LICENSE) is retained as requested for this repository; it does not relicense upstream skill content or replace its original terms. Review the upstream source terms before redistributing that content.
