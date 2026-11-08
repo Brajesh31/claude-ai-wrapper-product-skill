@@ -1,0 +1,14 @@
+Metric,Value,Unit,Notes
+Average requests per active customer per month,,requests,Use measured usage where possible
+Average input tokens per request,,tokens,Measure across representative tasks
+Average output tokens per request,,tokens,Measure across representative tasks
+Input price per million tokens,,currency,Use the provider's current published pricing
+Output price per million tokens,,currency,Use the provider's current published pricing
+Model cost per request,,currency,Calculate from token mix and current pricing
+Infrastructure cost per customer per month,,currency,Include storage queues observability and hosting
+Support cost per customer per month,,currency,Estimate from actual support burden
+Payment and platform fees per customer,,currency,Include billing and marketplace fees
+Monthly revenue per customer,,currency,Net of discounts and taxes where applicable
+Gross contribution per customer,,currency,Revenue less variable delivery costs
+Gross margin,,percent,Contribution divided by revenue
+Maximum safe usage quota,,requests or tokens,Set below the level that breaks unit economics
