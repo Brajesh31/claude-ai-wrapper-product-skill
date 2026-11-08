@@ -1,40 +1,93 @@
-# Ai Wrapper Product
+# claude-ai-wrapper-product-skill
+
+A Claude Code skill for designing and building focused products around AI APIs, with attention to user value, quality, cost, and sustainable product differentiation.
 
 ## Overview
 
-This repository contains a focused Claude skill for ai wrapper product. It provides reusable instructions and a structured workflow for applying the relevant concepts to practical work.
+An AI wrapper becomes a product only when it solves a specific problem better than a generic model interface. This skill helps turn an AI capability into a focused application with a clear audience, repeatable workflow, controlled costs, and measurable quality.
 
-## Features
+## Main Capabilities
 
-- Domain-specific guidance and terminology.
-- A repeatable process for common tasks.
-- Clear instructions for using task context effectively.
-- Original supporting resources packaged with the skill.
+- Identify a specific market and user problem.
+- Design product workflows around AI capabilities.
+- Choose model providers and integration patterns.
+- Engineer and version prompts.
+- Validate model outputs.
+- Manage API cost and usage limits.
+- Implement rate limiting and metering.
+- Design AI-specific user experience patterns.
+- Differentiate the product beyond a generic chat interface.
+- Plan monetization and operational controls.
 
-## Repository Structure
+## Product Strategy
 
-```text
-SKILL.md
+### Start with a Narrow Use Case
+
+Identify a task users already perform and determine where AI provides a measurable improvement. Avoid building a generic interface without a clear reason to switch.
+
+### Design the Full Workflow
+
+Consider input collection, model processing, output review, editing, export, and follow-up actions. The product should support the complete user job, not just the model call.
+
+### Control Cost
+
+Track tokens, provider charges, retries, and cost per successful task. Apply quotas and limits before usage becomes unpredictable.
+
+### Protect Output Quality
+
+Use structured outputs, validation, evaluation sets, and human review where required. Provide clear recovery paths for uncertain or failed responses.
+
+### Build Differentiation
+
+Potential advantages include specialized data, workflow integration, domain-specific evaluation, collaboration, automation, and distribution.
+
+## Installation
+
+```bash
+git clone https://github.com/Brajesh31/claude-ai-wrapper-product-skill.git ~/.claude/skills/ai-wrapper-product
 ```
 
-## Prerequisites
+## Usage
 
-- Claude environment with skill support.
-- Relevant project details, requirements, and constraints.
-- Appropriate access to the services or systems involved in the task.
+Invoke the skill when planning an AI-powered SaaS or focused AI tool:
 
-## Getting Started
+```text
+/ai-wrapper-product
+```
 
-1. Read `SKILL.md` to understand the workflow and its boundaries.
-2. Install the skill in the supported skills directory.
-3. Start a task aligned with the skill's purpose.
-4. Include concrete goals, relevant data, and acceptance criteria.
-5. Review outputs and test any proposed implementation before relying on it.
+Provide the target user, problem, current alternative, AI capability, expected usage, pricing assumptions, and deployment constraints.
 
-## Best Practices
+## Recommended Workflow
 
-Keep credentials out of prompts and source control. Verify external service behavior against current documentation, and validate results in a safe environment before production use.
+1. Define the user segment and painful workflow.
+2. Validate that AI materially improves the outcome.
+3. Map the end-to-end user journey.
+4. Choose the model and architecture.
+5. Prototype with representative inputs.
+6. Define output validation and quality measures.
+7. Estimate cost per task and usage limits.
+8. Design onboarding, feedback, and error states.
+9. Test willingness to pay and retention.
+10. Iterate based on real usage rather than demo reactions.
 
-## License
+## Product Readiness Checklist
 
-MIT. See [LICENSE](LICENSE).
+- Target user and use case are specific.
+- Core workflow is better than the current alternative.
+- Model output is validated.
+- Costs and quotas are understood.
+- Privacy and data retention are defined.
+- Rate limiting and abuse controls exist.
+- Product quality is measured.
+- Failure states are useful.
+- Differentiation is defensible.
+- Pricing aligns with delivered value and costs.
+
+## Repository Contents
+
+- `SKILL.md`: Main AI wrapper product guidance.
+- `README.md`: Strategy, implementation, and product checklist.
+
+## Practical Principle
+
+A thin interface over a public model is easy to copy. Build around a real workflow, proprietary value, measurable outcomes, and customer retention.
